@@ -14,10 +14,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">   
 <script src="https://cdn.tailwindcss.com"></script>
-    <link
-    href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
-    rel="stylesheet"
-  />
+   
   <script>
     tailwind.config= {
         theme: {
@@ -68,18 +65,18 @@
       });
   </script>
 <!-- second-part -->
- <section class=" py-16 bg-gradient-to-tl from-purple-900 to-indigo-600">
-  <div class="grid grid-cols-1 md:grid-cols-3 ml-12  mt-20">
-    <div class="ml-4 relative z-30 " >
+ <section class="relative pl-6 py-16 pr-6 bg-gradient-to-tl from-purple-900 to-indigo-600">
+  <div class="grid grid-cols-1 md:grid-cols-3 md:ml-12  mt-20">
+    <div class=" relative z-30 " >
       <h3 class="text-sm text-white mb-4">Successful coaches are visionaries</h3>
       <p class="text-5xl leading-[1.3] font-right text-white mb-6">Good <span class="text-blue-700">coaching </span>is </br>good teaching & </br>nothing else.</p>
       <div class="flex space-x-4 mb-10 ">
         <button class="text-sm text-white px-6 py-3 border-2 border-white rounded-lg">View Courses</button>
         <a href="#" class="text-sm font-none text-white mt-4">Get Free Consultation</a>
       </div>
-      <div class="felx ">
-      <input class="w-64 px-2 py-3 mb-8 text-xs text-black rounded type="text" value="" placeholder="What do you want to learn today?" >
-      <button class="px-3  py-2 text-xs bg-blue-600 hover:bg-blue-800 transition text-white rounded">Search</button>
+      <div class=" relative felx ">
+      <input class="w-full   px-2 py-6 mb-8 pt-2 text-xs text-black rounded "  type="text" value="" placeholder="What do you want to learn today?" >
+      <button class=" absolute  top-2 right-4 px-6 py-2 text-xs bg-blue-600 hover:bg-blue-800 transition text-white rounded">Search</button>
       </div>
     </div>
     <div class="mt-6 md:ml-32 flex space-x-2">
@@ -92,10 +89,10 @@
       </div>
     </div>
     <div >
-      <img class="absolute z-10  right-0 top-4 w-1/2 h-auto" src="./assets/Ellipse 8324.png" alt="">
-      <img class="absolute z-20  right-12 md:right-18  top-14 w-1/4 h-auto"src="./assets/women.png" alt="">
+      <img class="absolute z-10  right-0 -bottom-12 md:top-0 w-1/2 h-auto" src="./assets/Ellipse 8324.png" alt="">
+      <img class="absolute z-20  right-12 md:right-18  bottom-0 w-1/4 h-auto"src="./assets/women.png" alt="">
   </div>
-  <img class="absolute -bottom-36 left-48  w-40 h-40 md:left-1/2 md:bottom-8" src="./assets/element1.png" alt="">
+  <img class="absolute bottom-0 left-48  w-40 h-40 md:left-1/2 " src="./assets/element1.png" alt="">
   </div>
  </section>
  <section class="bg-gradient-to-t from-purple-800 to-indigo-600 p-4 py-6">
@@ -117,7 +114,7 @@
     </div>
   </div>
   <!-- cards-part -->
-   <div class="flex flex-wrap justify-center mb-14 items-center px-6 space-y-6 ">
+   <div class="flex flex-wrap justify-center mb-14 items-center px-16 space-y-6 ">
     <div class="bg-white mt-6 rounded-xl max-w-xs md:max-w-[30%] mx-auto">
     <img class="w-full  h-auto " src="./assets/image1.png" alt="">
     <div class="p-4">
@@ -228,18 +225,146 @@
       <p class="text-center mb-8 font-saira text-sm leading-[1.5] text-white">We are providing the best courses and top classes.And <br>extradinery placement training.....</p>
   </div>
    <!-- cards -->
-<div>
-  <div>
-    <div>
-      <img src="" alt="">
-      <h2>01. Learn</h2>
-      <p>Learn continually. There is always<br>
+    <article class=" relative grid grid-cols-1 md:grid-cols-3  space-y-6  md:max-w-[80%] md:mx-auto ">
+<div class="flex justify-center items-center mb-16 mt-20 gap-14 ">
+  <div  class=" flex flex-col space-y-6 justify-center items-center">
+      <img class="w-12 h-12" src="./assets/small icon1.png" alt="">
+      <h2 class="text-sm font-none text-white font-right">01. Learn</h2>
+      <p class="text-xs font-none  text-center text-white font-right">Learn continually. There is always<br>
         “one more thing”to learn.</p>
-    </div>
+</div>
+<div class="hidden md:block">
+    <img class=" md:h-28" src="./assets/Line.png" alt="">
   </div>
+  </div>
+
+  <div class="flex justify-center items-center mb-20 gap-14 ">
+    <div  class=" flex flex-col space-y-6 justify-center items-center">
+        <img class="w-12 h-12" src="./assets/small icon2.png" alt="">
+        <h2 class="text-sm font-none text-white font-right">02. Graduate</h2>
+        <p class="text-xs font-none text-white text-center mb-30 font-right">Be bold,be courageous,<br>
+be your best.
+    </p>
+  </div>
+  <div class="hidden md:block">
+      <img class=" md:h-28" src="./assets/Line.png" alt="">
+    </div>
+    </div>
+
+    <div class="flex justify-center items-center mb-16 pb-6 gap-14 ">
+      <div  class=" flex flex-col space-y-6 justify-center items-center">
+          <img class="w-12 h-12" src="./assets/small icon3.png" alt="">
+          <h2 class="text-sm font-none text-white font-right">03. work</h2>
+          <p class="text-xs font-none text-center  text-white font-right">Great companies are built in<br>
+            the office,with hard work put</br>
+            in by team.
+          </p>
+    </div>
+    <div class="hidden md:block">
+        <img class=" md:h-28" src="./assets/Line.png" alt="">
+      </div>
+      </div>
+</article>
+</section>
+
+<!-- fourth-part -->
+ <section class=" p-6 bg-gradient-to-t from-blue-100 to-blue-25" >
+  <div class=" flex mt-8 mb-10 flex-col justify-between items-center" >
+    <h2 class="font-right text-xl md:text-2xl">Top <span class="text-blue-700">Categories</span></h2>
+    <p class="font-right text-gray-700">100+ unique online course list designs</p>
+  </div>
+  <!-- six-cards -->
+  <div class="grid grid-cols-2 md:grid-cols-6 max-w-[80%] mx-auto space-y-6 mb-10 space-x-6 ">
+    <div class="bg-white flex max-w-[90%] mt-6 ml-4 flex-col justify-between items-center p-6 space-y-6 rounded-lg shadow-md ">
+      <img class="w-14 h-14"  src="./assets/div.features-box-image(6).png" alt="">
+      <h2 class="font-right text-sm text-center">Digtal<br>
+        Marketing</h2>
+      <h3 class="font-right text-gray-500 text-xs">25 Courses</h3>
+    
+    </div>
+
+<div class="bg-white flex flex-col justify-between items-center p-6 space-y-6 rounded-lg shadow-md ">
+  <img class="w-14 h-14"  src="./assets/div.features-box-image(7).png" alt="">
+  <h2 class="font-right text-center text-sm">web 
+   Development</h2>
+  <h3 class="font-right text-gray-500 text-xs">25 Courses</h3>
+
 </div>
 
+<div class="bg-white flex flex-col justify-between items-center p-6 space-y-6 rounded-lg shadow-md ">
+  <img class="w-14 h-14"  src="./assets/div.features-box-image(8).png" alt="">
+  <h2 class="font-right text-center text-sm">Arts &
+  Humanities</h2>
+  <h3 class="font-right text-gray-500 text-xs">25 Courses</h3>
 
+</div>
+
+<div class="bg-white flex flex-col justify-between items-center p-6 space-y-6 rounded-lg shadow-md ">
+  <img class="w-14 h-14"  src="./assets/div.features-box-image(9).png" alt="">
+  <h2 class="font-right text-center text-sm">Personal Development
+  </h2>
+  <h3 class="font-right text-gray-500 text-xs">25 Courses</h3>
+
+</div>
+
+<div class="bg-white flex flex-col justify-between items-center p-6 space-y-6 rounded-lg shadow-md ">
+  <img class="w-14 h-14"  src="./assets/div.features-box-image(10).png" alt="">
+  <h2 class="font-right text-center text-sm">IT and Software
+    </h2>
+  <h3 class="font-right text-gray-500 text-xs">25 Courses</h3>
+
+</div>
+
+<div class="bg-white flex flex-col justify-between items-center p-6 space-y-6 rounded-lg shadow-md ">
+  <img class="w-14 h-14"  src="./assets/div.features-box-image(11).png" alt="">
+  <h2 class="font-right text-center text-sm">Software Design
+  </h2>
+  <h3 class="font-right text-gray-500 text-xs">25 Courses</h3>
+</div>
+</div>
+ </section>
+
+ <!-- fifth-part -->
+
+ <section>
+  <div class="relative bg-gradient-to-l from-pink-400 via-violet-500 to-blue-400 mt-24 mb-12 md:mb-20  max-w-[90%] md:max-w-[60%] mx-auto rounded-lg mb-10 p-4">
+    <div class="flex relative z-20 flex-col justify-center items-center">
+      <h1 class="mt-10 text-xl md:text-3xl font-right text-center text-white mb-4">Subscribe For Get Update</br>Every New Courses</h1>
+      <p class=" relative z-10 text-xs font-right font-normal mb-6 text-white text-center">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+      <div class="flex mb-10 relative md:w-1/2">
+        <div class="absolute inset-0 bg-white opacity-20 rounded-lg z-0"></div>
+        <input 
+          class="w-full bg-transparent text-white placeholder-white  focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 px-4 py-3 rounded-l-lg text-xs relative z-10" 
+          type="text" 
+          value="" 
+          placeholder="enter your email">
+       
+        <button class="bg-blue-800 transition hover:bg-blue-600 rounded-r-lg text-white text-xs px-4 py-2 relative z-10">Subscribe</button>
+      </div>
+    </div>
+   
+ <!--bg-picture -->
+ 
+<img  class=" w-10 h-10  absolute bottom-10 right-8 " src="./assets/Ellipse 166(1).png" alt="">
+<img  class=" w-10 z-10 h-10 absolute bottom-28 right-24 " src="./assets/Ellipse 166(1).png" alt="">
+<img  class=" w-10 h-10 absolute top-10 right-8 " src="./assets/Ellipse 166(1).png" alt="">
+
+<img  class=" w-10 h-10  absolute bottom-10 left-8 " src="./assets/Ellipse 166(1).png" alt="">
+<img  class=" w-10 z-10 h-10 absolute bottom-28 left-24 " src="./assets/Ellipse 166(1).png" alt="">
+<img  class=" w-10 h-10  absolute top-10 left-8 " src="./assets/Ellipse 166(1).png" alt="">
+
+<img class=" absolute w-10 h-10 md:w-12 h-12  -bottom-6 -left-6 "src="./assets/Polygon 8.png" alt="">
+<img class=" absolute w-12 h-12  top-6 left-48  md:left-1/2 "src="./assets/Polygon 8.png" alt="">
+<!-- triangle-bg-picture -->
+ <div class="mb-8">
+<img class="w-10 h-10 md:w-12 h-12 absolute  -bottom-28 right-6 md:right-4" src="./assets/triangle.png" alt="">
+  </div>
+  </div>
 </section>
+
+<!-- sixth-part -->
+ <section></section>
+
+
 </body>
 </html>
